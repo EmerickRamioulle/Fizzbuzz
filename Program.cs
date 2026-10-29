@@ -15,7 +15,7 @@ class Program
             {
                 Console.WriteLine("Buzz");
             }
-            else (i % 3 == 1 && i % 5 == 1)
+            else if (i % 5 == 1 && i % 3 == 1)
             {
                 Console.WriteLine("FizzBuzz");
             }
