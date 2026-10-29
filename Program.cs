@@ -7,15 +7,15 @@ class Program
         // Créez une application console qui affiche tous les nombres de 1 à 100 inclus, à l’exception de certains nombres.
         for ( int i  = 1; i <= 100 ; i++ )
         {
-            if (i % 3 == 1)
+            if (i % 3 == 0)
             {
                 Console.WriteLine("Fizz");
             }
-            else if (i % 5 == 1)
+            else if (i % 5 == 0)
             {
                 Console.WriteLine("Buzz");
             }
-            else if (i % 5 == 1 && i % 3 == 1)
+            else if (i % 5 == 0 && i % 3 == 0)
             {
                 Console.WriteLine("FizzBuzz");
             }
